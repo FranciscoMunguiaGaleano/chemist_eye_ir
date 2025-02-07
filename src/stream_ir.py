@@ -129,7 +129,7 @@ def encode_image_to_base64(image):
 
 # Function to send data to the server
 def send_data(image_base64, max_temp):
-    url = 'http://192.168.1.101:5000/upload_ir'  # Adjust the endpoint
+    url = 'http://192.168.1.XXX:5000/upload_ir'  # Adjust the endpoint
     data = {
         'image': image_base64,
         'max_temperature': float(max_temp)
