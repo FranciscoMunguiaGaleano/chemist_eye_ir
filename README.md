@@ -23,7 +23,7 @@ All commands are executed remotely via SSH from the ROS master.
 ## Repository Structure
 
 ```
-chemist_eye/
+chemist_eye_ir/
 │
 ├── streamer.py
 ```
